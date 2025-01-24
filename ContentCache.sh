@@ -2,14 +2,14 @@
 ########################################################################
 # Metadata allows your plugin to show up in the app, and website.
 #
-#  <xbar.title>MacOS Content Caching</xbar.title>
+#  <xbar.title>MacOS Content Caching Status</xbar.title>
 #  <xbar.version>v1.0</xbar.version>
-#  <xbar.author>JNS</xbar.author>
-#  <xbar.author.github>your-github-username,another-github-username</xbar.author.github>
+#  <xbar.author>xerox914</xbar.author>
+#  <xbar.author.github>xerox914</xbar.author.github>
 #  <xbar.desc>Provides status of MacOS content cache if enabled of cached software in System Preferences / Sharing / Content Caching</xbar.desc>
-#  <xbar.image>http://www.hosted-somewhere/pluginimage</xbar.image>
+#  <xbar.image></xbar.image>
 #  <xbar.dependencies>zsh</xbar.dependencies>
-#  <xbar.abouturl>http://url-to-about.com/</xbar.abouturl>
+#  <xbar.abouturl>https://github.com/xerox914/xbar-contentCacheStatus/blob/main/README.md</xbar.abouturl>
 ########################################################################
 /usr/bin/AssetCacheManagerUtil status > /tmp/asset.cache.util 2>&1
 ########################################################################
